@@ -1,0 +1,12 @@
+formal/.lake/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/*.png
+paper/latex*.log
+formal/build*.log
+__pycache__/
