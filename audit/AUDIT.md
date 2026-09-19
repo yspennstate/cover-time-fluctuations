@@ -134,7 +134,7 @@ in (1.1) with `sqrt(lambda R) M`, which is the dimensionally consistent form
 ## Changes made to the text
 
 1. Cross-references to lemmas, propositions and corollaries printed as
-   "theorem" in thirteen places (Lemma 3.2, Lemma 4.2, Lemma 5.1, Lemmas
+   "theorem" in eleven places (Lemma 3.2, Lemma 4.2, Lemma 5.1, Lemmas
    8.2 and 8.3, Proposition 9.1, Corollary 2.2). They now carry the right
    names.
 2. Appendix A now describes the checks and the Lean development that
