@@ -35,6 +35,8 @@
 \newcommand{\ind}{\mathbf{1}}
 \newcommand{\T}{\mathsf{T}}
 
+\usepackage{xurl}
+\setlength{\emergencystretch}{3em}
 \begin{document}
 
 \title[Cover-time fluctuations beyond the hitting-time scale]{Cover-time fluctuations beyond the maximal hitting-time scale}
@@ -890,6 +892,8 @@ The second is a Lean~4 development, checked against Mathlib. It formalises the f
 \section*{Acknowledgements}
 The research was supported by the European Research Council under the European Union's Horizon Europe research and innovation programme (grant agreement No.~101041711), the Simons Foundation as part of the Collaboration on the Mathematical and Scientific Foundations of Deep Learning, Heights Labs, Convex Nexus Capital, and the Israel Science Foundation (grants 2258/19 and 4101/25).
 
+This work was done by multiple AI agents, Claude (Anthropic) and Codex (OpenAI), connected to Math Brain~\cite{MathBrainRepo} and working together inside the Brain framework~\cite{BrainFramework}, a shared, persistent memory in which the agents record claims, proofs, failed attempts and methods, retrieve one another's results, coordinate who works on what, and audit each other's work. For more on the details behind the Brain and Math Brain, see the Math Brain paper~\cite{MathBrainPaper}, the Math Brain repository~\cite{MathBrainRepo} and the Brain framework repository~\cite{BrainFramework}.
+
 \section*{Declaration of competing interest}
 The author holds equity in Heights Labs and in Convex Nexus Capital and has a management role at Convex Nexus Capital; both entities supported this work and are named above. These entities and the other sources of support had no role in the design of the study, its analysis, the preparation of the manuscript, or the decision to publish.
 
@@ -898,6 +902,8 @@ During the preparation of this work the author made substantial use of generativ
 
 \section*{Code availability}
 The \LaTeX{} source, the exact-arithmetic programs with their recorded output, and the Lean~4 development are available at \url{https://github.com/yspennstate/cover-time-fluctuations} \cite{Repo}. The Lean development builds against Mathlib with the pinned toolchain recorded in the repository, and a separate file prints the axioms used by every theorem. It formalises the finite statements on which the proofs rest, as listed in Appendix~\ref{app:checks}; no computational result is used as a substitute for a proof in the paper.
+
+The paper is part of the Math Brain project, whose public repository is \url{https://github.com/yspennstate/math-brain-public}~\cite{MathBrainRepo}.
 
 \begin{thebibliography}{99}
 
@@ -950,6 +956,12 @@ Y.~Shmalo, \emph{Cover-time fluctuations beyond the maximal hitting-time scale: 
 \bibitem{Zhai18}
 A.~Zhai, \emph{Exponential concentration of cover times}, Electron. J. Probab. \textbf{23} (2018), paper no. 32, 22 pp.
 \href{https://doi.org/10.1214/18-EJP149}{doi:10.1214/18-EJP149}.
+
+\bibitem{MathBrainRepo} Y.~Shmalo, \emph{Math Brain: public snapshot, code and tests}, 2026, \url{https://github.com/yspennstate/math-brain-public}.
+
+\bibitem{MathBrainPaper} Y.~Shmalo, \emph{Math Brain: shared, auditable memory for multi-agent mathematical research}, October 2026, \url{https://github.com/yspennstate/math-brain-public/tree/main/papers/math-brain-2026-10-24}.
+
+\bibitem{BrainFramework} Y.~Shmalo, \emph{Brain Framework}, public software repository, 2026, \url{https://github.com/yspennstate/brain-framework-public}.
 
 \end{thebibliography}
 
